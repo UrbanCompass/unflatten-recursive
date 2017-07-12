@@ -2,8 +2,8 @@
 
 Unflattens object recursively while preserving arrays. Contents of arrays are unflattened.
 
-Note: UNLIKE OTHER OPEN SOURCE LIB, this lib also looping through arrays and unflatten the array
-members recursively.
+Note: UNLIKE OTHER OPEN SOURCE LIB such as `flat`, this lib also loops through arrays and unflattens
+the array members recursively.
 
 Input:
 ```
