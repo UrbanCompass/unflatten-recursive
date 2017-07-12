@@ -1,0 +1,46 @@
+{
+  "name": "unflatten-recursive",
+  "version": "1.0.0",
+  "description": "Unflattens object recursively while preserving arrays. Contents of arrays are also unflattened.",
+  "main": "dist/unflatten-recursive.js",
+  "module": "dist/unflatten-recursive.mjs",
+  "esnext": "dist/unflatten-recursive.mjs",
+  "browser": "dist/unflatten-recursive.umd.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node tools/build.js",
+    "prepublish": "npm run build",
+    "test": "eslint . && mocha --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrbanCompass/unflatten-recursive.git"
+  },
+  "keywords": [
+    "convert",
+    "conversion",
+    "string",
+    "start",
+    "case"
+  ],
+  "contributors": [
+    "Zhuoyuan Zhang <zhuoyuan@compass.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UrbanCompass/unflatten-recursive/issues"
+  },
+  "homepage": "https://github.com/UrbanCompass/unflatten-recursive#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "eslint": "^4.2.0",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "flat": "^2.0.1"
+  }
+}
