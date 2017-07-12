@@ -1,6 +1,6 @@
 {
   "name": "unflatten-recursive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unflattens object recursively while preserving arrays. Contents of arrays are also unflattened.",
   "main": "dist/unflatten-recursive.js",
   "module": "dist/unflatten-recursive.mjs",

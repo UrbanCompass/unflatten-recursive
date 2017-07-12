@@ -63,5 +63,5 @@ typings/
 .env
 
 # editor
-*.iml
+**/*.iml
 
