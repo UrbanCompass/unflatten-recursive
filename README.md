@@ -36,4 +36,9 @@ import unflattenRecursive from 'unflatten-recursive';
 unflattenRecursive({
   'a.b.c': 'something'
 }); // {a: {b: {c: 'something'}}}
+unflattenRecursive({
+  'a.b': [
+    {'c.d': 'nested'}
+  ]
+}); // {a: {b: [{c: {d: 'nested'}}]}}
 ```
