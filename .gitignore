@@ -1,3 +1,8 @@
+Mac OS X
+.DS_Store
+
+dist
+
 # Logs
 logs
 *.log
@@ -56,4 +61,7 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# editor
+*.iml
 
